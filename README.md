@@ -1,4 +1,6 @@
-# wig - WebApp Information Gatherer
+# [wig](https://github.com/The404Hacking/wig) - WebApp Information Gatherer
+
+![wig](Screenshot.png?raw=true "wig")
 
 
 wig is a web application information gathering tool, which can identify numerous Content Management Systems and other administrative applications.
@@ -132,8 +134,8 @@ IIS 7.5                   http://www.example.com                                
                                                                                                                      
 _______________________________________________________ TOOLS _______________________________________________________
 Name                      Link                                                   Software                            
-droopescan                https://github.com/droope/droopescan                   Drupal                              
-CMSmap                    https://github.com/Dionach/CMSmap                      Drupal                              
+droopescan                https://github.com/The404Hacking/droopescan             Drupal                              
+CMSmap                    https://github.com/The404Hacking/CMSmap                 Drupal                              
                                                                                                                      
 __________________________________________________ VULNERABILITIES __________________________________________________
 Affected                  #Vulns                                                 Link                                
@@ -142,3 +144,20 @@ Drupal 7.38               5                                                     
 _____________________________________________________________________________________________________________________
 Time: 11.3 sec            Urls: 310                                              Fingerprints: 37580       
 ```
+
+## Download and Clone
+> Download: [https://github.com/The404Hacking/wig/archive/master.zip](https://github.com/The404Hacking/wig/archive/master.zip)
+
+> Clone: git clone [https://github.com/The404Hacking/wig](https://github.com/The404Hacking/wig.git)
+
+## The404Hacking | Digital UnderGround Team
+[The404Hacking](https://T.me/The404Hacking)
+
+## Follow us !
+[The404Hacking](https://T.me/The404Hacking) - [The404Cracking](https://T.me/The404Cracking)
+
+[Instagram](https://instagram.com/The404Hacking) - [GitHub](https://github.com/The404Hacking)
+
+[YouTube](http://yon.ir/youtube404) - [Aparat](http://www.aparat.com/The404Hacking)
+
+[The404Hacking.BlogSky.Com](http://the404hacking.blogsky.com) - [Email](mailto:The404Hacking.Team@Gmail.Com)
