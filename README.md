@@ -160,4 +160,4 @@ Time: 11.3 sec            Urls: 310                                             
 
 [YouTube](http://yon.ir/youtube404) - [Aparat](http://www.aparat.com/The404Hacking)
 
-[The404Hacking.BlogSky.Com](http://the404hacking.blogsky.com) - [Email](mailto:The404Hacking.Team@Gmail.Com)
+[Weblog](http://the404hacking.blogsky.com) - [Email](mailto:The404Hacking.Team@Gmail.Com)
