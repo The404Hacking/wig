@@ -1,0 +1,18 @@
+[
+	{
+		"url": "",
+		"header": "Set-Cookie",
+		"type": "string",
+		"match": "phpMyAdmin",
+		"output": "",
+		"code": "any"
+	},
+	{
+		"url": "",
+		"header": "Set-Cookie",
+		"type": "regex",
+		"match": "pma_lang",
+		"output": "",
+		"code": "any"
+	}
+]

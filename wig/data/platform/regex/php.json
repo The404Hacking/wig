@@ -1,0 +1,9 @@
+[
+	{
+		"url": "",
+		"type": "regex",
+		"match": "<h1 class=\"p\">PHP Version ([\\d\\.]*[-\\d]*)\\s*</h1>",
+		"output": "%s",
+		"code": 200
+	}
+]

@@ -1,0 +1,31 @@
+[
+	{
+		"url": "/_layouts/create.aspx",
+		"type": "string",
+		"match": "401 UNAUTHORIZED",
+		"output": "",
+		"note": "Sharepoint Create Page",
+		"code": "401"
+	},
+	{
+		"url": "/_layouts/MyInfo.aspx",
+		"type": "string",
+		"match": "Go to Sharepoint",
+		"output": ""
+	},
+	{
+		"url": "/_layouts/none.aspx",
+		"type": "string",
+		"match": "<meta name=\"SharePointError\" content=\"\"/>",
+		"output": "",
+		"code": "any",
+		"note": "Sharepoint Error Page"
+	},
+	{
+		"url": "/_layouts/settings.aspx",
+		"type": "string",
+		"match": "Sign In",
+		"output": "",
+		"note": "Sharepoint Settings Page"
+	}
+]

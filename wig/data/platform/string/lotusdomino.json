@@ -1,0 +1,14 @@
+[
+	{
+		"url": "",
+		"type": "string",
+		"match": "form method=\"post\" action= \"/names.nsf",
+		"output": ""
+	},
+	{
+		"url": "",
+		"type": "string",
+		"match": "src=\"/icons/ecblank.gif\"",
+		"output": ""
+	}
+]

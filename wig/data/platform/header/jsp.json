@@ -1,0 +1,19 @@
+[
+	{
+		"url": "",
+		"header": "Set-Cookie",
+		"type": "string",
+		"match": "JSESSION",
+		"output": "",
+		"code": "any"
+	},
+	{
+		"url": "",
+		"header": "X-Powered-By",
+		"type": "regex",
+		"match": "JSP/(\\d[\\.\\d]*) ",
+		"output": "%s",
+		"weight": 10,
+		"code": "any"
+	}
+]

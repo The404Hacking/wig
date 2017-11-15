@@ -1,0 +1,21 @@
+[
+	{
+		"url": "/",
+		"type": "string",
+		"match": "Demandware Analytics code 1.0",
+		"output": ""
+	},
+	{
+		"url": "/",
+		"type": "string",
+		"match": "demandware.static",
+		"output": ""
+	},
+	{
+		"url": "/",
+		"type": "string",
+		"match": "on/demandware.store/",
+		"output": ""
+	}	
+]
+

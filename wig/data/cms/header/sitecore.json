@@ -1,0 +1,29 @@
+[
+	{
+		"url": "",
+		"header": "Set-Cookie",
+		"type":"string",
+		"match": "#sc_wede=1",
+		"output": "",
+		"weight": 1,
+		"code": "any"
+	},
+	{
+		"url": "",
+		"header": "Set-Cookie",
+		"type":"string",
+		"match": "website#lang",
+		"output": "",
+		"weight": 1,
+		"code": "any"
+	},
+	{
+		"url": "",
+		"header": "Set-Cookie",
+		"type":"string",
+		"match": "SC_ANALYTICS_GLOBAL_COOKIE",
+		"output": "",
+		"weight": 1,
+		"code": "any"
+	}
+]

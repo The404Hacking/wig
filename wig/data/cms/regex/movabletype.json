@@ -1,0 +1,16 @@
+[
+	{
+        "url": "",
+		"type": "regex",
+		"match": "<meta name=\"generator\" content=\"Movable Type (\\d[\\.\\d*]*)\" />",
+		"output": "%s",
+		"code": "any"
+	},
+	{
+        "url": "",
+		"type": "regex",
+		"match": "<meta name=\"generator\" content=\"Movable Type (Pro \\d[\\.\\d*]*)\" />",
+		"output": "%s",
+		"code": "any"
+	}
+]

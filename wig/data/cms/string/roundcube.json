@@ -1,0 +1,65 @@
+[
+	{
+        "url": "",
+		"type": "string",
+		"match": "Welcome to RoundCube Webmail",
+		"output": "",
+		"weight": 0.1
+	},
+	{
+		"url": "/mail/",
+		"type": "string",
+		"match": "Welcome to RoundCube Webmail",
+		"output": "",
+		"weight": 0.1
+	},
+	{
+		"url": "/roundcube",
+		"type": "string",
+		"match": "Welcome to RoundCube Webmail",
+		"output": "",
+		"weight": 0.1
+	},
+	{
+        "url": "",
+		"type": "string",
+		"match": "var rcmail = new rcube_webmail();",
+		"output": "",
+		"weight": 0.1
+	},	
+	{
+		"url": "/mail/",
+		"type": "string",
+		"match": "var rcmail = new rcube_webmail();",
+		"output": "",
+		"weight": 0.1
+	},
+	{
+		"url": "/roundcube",
+		"type": "string",
+		"match": "var rcmail = new rcube_webmail();",
+		"output": "",
+		"weight": 0.1
+	},
+	{
+        "url": "",
+		"type": "string",
+		"match": "<label for=\"rcmloginuser\">Username</label>",
+		"output": "",
+		"weight": 0.1
+	},
+	{
+		"url": "/mail/",
+		"type": "string",
+		"match": "<label for=\"rcmloginuser\">Username</label>",
+		"output": "",
+		"weight": 0.1
+	},
+	{
+		"url": "/roundcube",
+		"type": "string",
+		"match": "<label for=\"rcmloginuser\">Username</label>",
+		"output": "",
+		"weight": 0.1
+	}
+]

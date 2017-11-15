@@ -1,0 +1,20 @@
+[
+	{
+		"url": "",
+		"type": "string",
+		"match": "<meta name=\"generator\" content=\"http://www.movabletype.org/\" />",
+		"output": ""
+	},
+	{
+		"url": "",
+		"type": "string",
+		"match": "<meta name=\"generator\" content=\"Movable Type",
+		"output": ""
+	},
+	{
+		"url": "",
+		"type": "string",
+		"match": "/mt-static/",
+		"output": ""
+	}
+]

@@ -1,0 +1,14 @@
+[
+	{
+		"url": "",
+		"type": "string",
+		"match": "/cgi-bin/mj_wwwusr",
+		"output": ""
+	},
+	{
+		"url": "",
+		"type": "string",
+		"match": "<!-- Majordomo head format file -->",
+		"output": ""
+	}
+]

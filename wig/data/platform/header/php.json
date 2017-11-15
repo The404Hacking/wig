@@ -1,0 +1,20 @@
+[
+	{
+		"url": "",
+		"header": "X-Powered-By",
+		"type": "regex",
+		"match": "PHP/(.*)",
+		"output": "%s",
+		"code": "any",
+		"weight": 10
+	},
+	{
+		"url": "",
+		"header": "Set-Cookie",
+		"type": "string",
+		"match": "PHPSESSID",
+		"output": "",
+		"code": "any",
+		"weight": 0.1
+	}	
+]

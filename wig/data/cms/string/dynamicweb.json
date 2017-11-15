@@ -1,0 +1,22 @@
+[
+	{
+		"url": "/",
+		"type": "string",
+		"match": "<meta name=\"Generator\" content=\"Dynamicweb .NET\" />",
+		"output" : ""
+	},
+	{
+		"url": "/Admin/access/default.aspx",
+		"type": "string",
+		"match": "<small>Dynamicweb CMS</small>",
+		"output" : "",
+		"note": "DynamicWeb administration page"
+	},
+	{
+		"url": "/Admin/access/default.aspx",
+		"type": "string",
+		"match": "alt=\"Dynamicweb CMS\" /></a></div>",
+		"output" : "",
+		"note": "DynamicWeb administration page"
+	}
+]

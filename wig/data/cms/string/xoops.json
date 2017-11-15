@@ -1,0 +1,22 @@
+[
+	{
+        "url": "",
+		"type": "string",
+		"match": "<meta name=\"generator\" content=\"XOOPS\" />",
+		"output": "",
+		"code": "any"
+	},
+	{
+        "url": "",
+		"type": "string",
+		"match": "<input type=\"hidden\" name=\"xoops_redirect\" value=\"/\"/>",
+		"output": "",
+		"code": "any"
+	},
+	{
+        "url": "",
+		"type": "string",
+		"match": "xoops.css",
+		"output": ""
+	}
+]

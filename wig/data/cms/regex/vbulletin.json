@@ -1,0 +1,17 @@
+[
+	{
+        "url": "",
+		"type": "regex",
+		"match": "<meta name=\"generator\" content=\"vBulletin (\\d[\\.\\d*]*)\" />",
+		"output": "%s",
+		"code": "any"
+
+	},
+	{
+        "url": "",
+		"type": "regex",
+		"match": "%* vBulletin (\\d%[\\.\\d]*) CSS",
+		"output": "%s",
+		"code": "any"
+	}
+]

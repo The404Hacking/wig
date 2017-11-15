@@ -1,0 +1,14 @@
+[
+	{
+		"url": "",
+		"type": "string",
+		"match": "<meta name=\"generator\" content=\"DokuWiki\"/>",
+		"output": ""
+	},
+	{
+		"url": "",
+		"type": "string",
+		"match": "Driven by DokuWiki",
+		"output": ""
+	}
+]

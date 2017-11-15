@@ -1,0 +1,8 @@
+[
+	{
+        "url": "",
+		"type": "regex",
+		"match": "<title>.*(Majordomo).*</title>",
+		"output": "%s"
+	}
+]

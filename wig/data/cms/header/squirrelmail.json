@@ -1,0 +1,11 @@
+[
+	{
+		"url": "",
+		"header": "Set-Cookie",
+		"type":"string",
+		"match": "SQMSESSID",
+		"output": "",
+		"weight": 1,
+		"code": "any"
+	}
+]

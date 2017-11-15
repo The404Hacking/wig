@@ -1,0 +1,10 @@
+[
+	{
+		"url": "",
+		"header": "Set-Cookie",
+		"type": "regex",
+		"match": "(CAKEPHP)",
+		"output": "",
+		"code": "any"
+	}
+]

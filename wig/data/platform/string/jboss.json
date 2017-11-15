@@ -1,0 +1,20 @@
+[
+	{
+		"url": "",
+		"type": "string",
+		"match": "<title>Welcome to JBoss AS</title>",
+		"output": ""
+	},
+	{
+		"url": "",
+		"type": "string",
+		"match": "<link rel=\"StyleSheet\" href=\"css/jboss.css\" type=\"text/css\"/>",
+		"output": ""
+	},
+	{
+		"url": "",
+		"type": "string",
+		"match": "<a href=\"http://www.jboss.org/jbossas/\">JBoss Application Server</a>",
+		"output": ""
+	}
+]

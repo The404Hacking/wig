@@ -1,0 +1,48 @@
+[
+	{
+		"url": "/phpmyadmin/Documentation.txt",
+		"type": "regex",
+		"match": "phpMyAdmin (\\d[\\.\\d\\d?]*) Documentation",
+		"output": "%s",
+		"note": "phpMyAdmin Documentation page",
+		"weight": 10
+	},
+	{
+		"url": "/phpmyadmin/Documentation.html",
+		"type": "regex",
+		"match": "phpMyAdmin (\\d[\\.\\d\\d?]*) - Documentation",
+		"output": "%s",
+		"note": "phpMyAdmin Documentation page",
+		"weight": 10
+	},
+	{
+		"url": "/phpmyadmin/README",
+		"type": "regex",
+		"match": "\\sVersion (\\d[\\.\\d\\d?]*)",
+		"output": "%s",
+		"note": "phpMyAdmin readme",
+		"weight": 10
+	},
+	{
+		"url": "/phpmyadmin/translators.html",
+		"type": "regex",
+		"match": "phpMyAdmin (\\d[\\.\\d\\d?]*) - Official translators",
+		"output": "%s",
+		"weight": 10
+	},
+	{
+		"url": "/phpmyadmin/js/messages.php",
+		"type": "regex",
+		"match": "var pmaversion = '(\\d[\\.\\d\\d?]*)';",
+		"output": "%s",
+		"weight": 10
+	},
+	{
+		"url": "/typo3conf/ext/phpmyadmin/ChangeLog.txt",
+		"type": "regex",
+		"match": "\\* Version (\\d.\\d\\d?.\\d)",
+		"output": "%s",
+		"note": "PHPMyAdmin (TYPO3 version)",
+		"weight": 2
+	}
+]

@@ -1,0 +1,16 @@
+[
+	{
+        "url": "",
+		"type": "string",
+		"match": "<meta name=\"generator\" content=\"shopping cart program by Zen Cart",
+		"output": "",
+		"code": "any"
+	},
+	{
+        "url": "",
+		"type": "string",
+		"match": "<meta name=\"author\" content=\"The Zen Cart",
+		"output": "",
+		"code": "any"
+	}
+]

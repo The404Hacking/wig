@@ -1,0 +1,31 @@
+[
+	{
+		"url": "",
+		"type": "string",
+		"match": "<!-- DotNetNuke - http://www.dotnetnuke.com",
+		"output": "",
+		"weight": 0.1
+	},
+	{
+		"url": "",
+		"type": "string",
+		"match": "<!-- by DotNetNuke Corporation",
+		"output": "",
+		"weight": 0.1
+	},
+	{
+		"url": "",
+		"type": "string",
+		"match": "name=\"GENERATOR\" content=\"DotNetNuke",
+		"output": "",
+		"weight": 0.1
+
+	},	
+	{
+		"url": "",
+		"type": "string",
+		"match": "<input name=\"__dnnVariable\" type=\"hidden\" id=\"__dnnVariable\" autocomplete=\"off\" />",
+		"output": "",
+		"weight": 0.1
+	}
+]

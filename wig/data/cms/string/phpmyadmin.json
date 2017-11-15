@@ -1,0 +1,33 @@
+[
+	{
+		"url": "",
+		"type": "string",
+		"match": "PMA_focusInput",
+		"output": "",
+		"weight": 0.1
+	},
+	{
+		"url": "/phpmyadmin/",
+		"type": "string",
+		"match": "PMA_focusInput",
+		"output": "",
+		"weight": 0.1,
+		"note": "PHPMyAdmin page"
+	},
+	{
+		"url": "/pma/",
+		"type": "string",
+		"match": "PMA_focusInput",
+		"output": "",
+		"weight": 0.1,
+		"note": "PHPMyAdmin page"
+	},
+	{
+		"url": "/phpmyadmin/setup/index.php",
+		"type": "string",
+		"match": "php</span><span class=\"orange\">MyAdmin</span>  setup</h1>",
+		"output": "",
+		"weight": 0.1,
+		"note": "PHPMyAdmin setup page"
+	}
+]

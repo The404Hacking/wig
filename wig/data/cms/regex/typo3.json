@@ -1,0 +1,57 @@
+[
+	{
+        "url": "",
+		"type": "regex",
+		"match": "<meta name=\"generator\" content=\"TYPO3 ([\\d\\.?]+)",
+		"output": "%s",
+		"weight": 5
+	},
+	{
+		"url": "/typo3/sysext/version/ChangeLog",
+		"type": "regex",
+		"match": "Raised version to (\\d[\\.\\d]*)",
+		"output": "%s",
+		"note": "Typo3 ChangeLog",
+		"weight": 100
+	},
+	{
+		"url": "/ChangeLog",
+		"type": "regex",
+		"match": "Raised version to (\\d[\\.\\d]*)",
+		"output": "%s",
+		"note": "Typo3 ChangeLog",
+		"weight": 5
+	},
+	{
+		"url": "/NEWS.txt",
+		"type": "regex",
+		"match": "IMPROVEMENTS in TYPO3 (\\d[\\.\\d]*)",
+		"output": "%s",
+		"weight": 5
+	},
+	{
+		"url": "/NEWS.txt",
+		"type": "regex",
+		"match": "IMPROVEMENTS between TYPO3 \\d\\.\\d and (\\d[\\.\\d]*)",
+		"output": "%s",
+		"weight": 5
+	},
+	{
+		"url": "/RELEASE_NOTES.txt",
+		"type": "regex",
+		"match": "RELEASE NOTES FOR TYPO3 (\\d[\\.\\d]*)",
+		"output": "%s",
+		"note": "Typo3 Release notes",
+		"weight": 5
+	},
+	{
+		"url": "/typo3conf/ext/phpmyadmin/ChangeLog.txt",
+		"type": "regex",
+		"match": "\\* Version (\\d.\\d\\d?.\\d)",
+		"output": "",
+		"note": "Typo3 with PHPMyAdmin",
+		"weight": 2
+	}
+
+
+]

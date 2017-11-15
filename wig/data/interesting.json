@@ -1,0 +1,100 @@
+[
+	{
+		"url":  "/robots.txt",
+		"note": "robots.txt index",
+		"type": "string",
+		"match": "Disallow"
+	},
+	{
+		"url":  "/changelog",
+		"note": "ChangeLog text file",
+		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp"],
+		"type": "string",
+		"match": ""
+	},
+	{
+		"url":  "/readme",
+		"note": "Readme file",
+		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp"],
+		"type": "string",
+		"match": ""
+	},
+	{
+		"url":  "/install",
+		"note": "Installation file",
+		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp"],
+		"type": "string",
+		"match": ""
+	},
+	{
+		"url":  "/phpinfo.php",
+		"note": "PHP info file",
+		"type": "string",
+		"match": "phpinfo()"
+	},
+	{
+		"url":  "/info.php",
+		"note": "PHP info file",
+		"type": "string",
+		"match": "phpinfo()"
+	},
+	{
+		"url":  "/test",
+		"note": "Test file",
+		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp", "zip"],
+		"type": "string",
+		"match": ""
+	},
+	{
+		"url":  "/login",
+		"note": "Login Page",
+		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp", "zip"],
+		"type": "string",
+		"match": ""
+	},
+	{
+		"url":  "/test1",
+		"note": "Test file",
+		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp", "zip"],
+		"type": "string",
+		"match": ""
+	},
+	{
+		"url":  "/test/",
+		"note": "Test directory",
+		"type": "string",
+		"match": ""
+	},
+	{
+		"url":  "/login/",
+		"note": "Login Page",
+		"type": "string",
+		"match": ""
+	},
+	{
+		"url":  "/old",
+		"note": "This might be interesting",
+		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp", "zip"],
+		"type": "string",
+		"match": ""
+	},
+	{
+		"url":  "/old/",
+		"note": "This might be interesting",
+		"type": "string",
+		"match": ""
+	},
+	{
+		"url":  "/sql/",
+		"note": "This might be interesting",
+		"type": "string",
+		"match": ""
+	},
+	{
+		"url":  "",
+		"name": "Directory Listing",
+		"note": "Directory Listing",
+		"type": "regex",
+		"match": "<title>Index of (.*)</title>"
+	}
+]

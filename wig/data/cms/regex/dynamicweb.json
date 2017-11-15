@@ -1,0 +1,21 @@
+[
+	{
+        "url": "",
+		"type": "regex",
+		"match": "\\(c\\) 1999-\\d\\d\\d\\d (Dynamicweb) Software A/S", 
+		"output": "%s"
+	},
+	{
+        "url": "",
+		"type": "regex",
+		"match": "<meta name=\"Generator\" content=\"Dynamicweb (\\d)\"", 
+		"output": "%s"
+	},
+	{
+		"url": "/Admin/access/default.aspx",
+		"type": "regex",
+		"match": "<div style=\"text-align:center;margin-top:3px;font-size:xx-small;color:#CCCCCC;\">(.*)</div>", 
+		"output": "%s",
+		"note": "DynamicWeb administration page"
+	}
+]

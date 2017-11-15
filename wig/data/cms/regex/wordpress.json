@@ -1,0 +1,38 @@
+[
+	{
+        "url": "",
+		"type": "regex",
+		"match": "<meta name=\"generator\" content=\"WordPress (\\d[\\.\\d]*)\" />",
+		"weight": 10,
+		"output": "%s"
+	},
+	{
+		"url": "/readme.html", 
+		"type": "regex",
+		"match": "<br />\\s*Version ([?\\.\\d]*)\\s*</h1>",
+		"weight": 100,
+		"output": "%s",
+		"note": "Wordpress readme"
+	},
+	{
+		"url": "/feed/",
+		"type": "regex",
+		"match": "v=(\\d[\\.\\d]*)</generator>", 
+		"weight": 10,
+		"output": "%s"		
+	},
+	{
+		"url": "/feed/atom/",
+		"type": "regex",
+		"match": "version=\"(\\d[\\.\\d]*)\">WordPress</generator>", 
+		"weight": 10,
+		"output": "%s"
+	},
+	{
+		"url": "/feed/rdf/",
+		"type": "regex",
+		"match": "v=(\\d[\\.\\d]*)\" />\\s*<items>", 
+		"weight": 10,
+		"output": "%s"
+	}
+]
