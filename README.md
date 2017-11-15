@@ -1,7 +1,5 @@
 # [wig](https://github.com/The404Hacking/wig) - WebApp Information Gatherer
 
-![wig](Screenshot.png?raw=true "wig")
-
 
 wig is a web application information gathering tool, which can identify numerous Content Management Systems and other administrative applications.
 
